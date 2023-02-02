@@ -19,10 +19,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Asthani.Model\Asthani.Model.csproj" />
     <ProjectReference Include="..\Asthani.Services\Asthani.Services.csproj" />
   </ItemGroup>
