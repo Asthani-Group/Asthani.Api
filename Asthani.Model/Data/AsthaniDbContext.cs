@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Asthani.Model.QueueModel;
+using Asthani.Model.TableModel;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
 namespace Asthani.Model.Data
@@ -17,5 +19,7 @@ namespace Asthani.Model.Data
         }
 
         public DbSet<TableBookingFormModel.TableHolderInfo> TableHolderInfo { get; set; }
+        public DbSet<Table> Tables { get; set; }
+        public DbSet<Queue> queues { get; set; }
     }
 }
