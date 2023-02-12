@@ -24,7 +24,7 @@ namespace Asthani.Services.TableHolderService
         {
             var table = new TableHolderInfo
             {
-                Id = tableHolderInfo.Id,
+                Id = new Guid() ,
                 NumberOfFamilyMembers = tableHolderInfo.NumberOfFamilyMembers,
                 TableHolderName = tableHolderInfo.TableHolderName
             };
